@@ -42,11 +42,6 @@ class PostMultipart(object):
         return content_type, body
 
     def post(self, url, fields, files):
-        """
-        fields and files are both sequence.
-        each fields element like (name, value) is regular form fields.
-        each files element like (name, filename, filepath) is upload files;
-        """
         self.url = url
         self.fields = fields
         self.files = files
@@ -58,3 +53,13 @@ class PostMultipart(object):
         req.add_header('Content-Type', '%s' % contentType)
 
         return urllib2.urlopen(req, data=body)
+
+
+def post(url, fields, files=[]):
+    """
+    fields and files are both sequence.
+    each fields element like (name, value) is regular form fields.
+    each files element like (name, filename, filepath) is upload files;
+    """
+    pm = PostMultipart()
+    return pm.post(url, fields, files)

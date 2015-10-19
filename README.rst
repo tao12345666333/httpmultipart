@@ -16,7 +16,6 @@ Usage
 .. code-block:: python
 
     >>> import httpmultipart
-    >>> multipart = httpmultipart.PostMultipart()
     >>> multipart.post(url, fields, files)
     ...
 

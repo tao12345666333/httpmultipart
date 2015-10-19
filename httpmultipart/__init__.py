@@ -17,6 +17,7 @@ __copyright__ = 'Copyright 2015 TaoBeier'
 
 import logging
 from logging import NullHandler
-from .main import PostMultipart
+
+from .main import post
 
 logging.getLogger(__name__).addHandler(NullHandler())
