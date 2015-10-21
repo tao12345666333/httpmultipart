@@ -10,8 +10,8 @@ Homepage:
 
 __title__ = 'httpmultipart'
 __author__ = 'TaoBeier'
-__version__ = '0.1.0'
-__license__ = 'GPL'
+__version__ = '0.2.0'
+__license__ = 'MIT'
 __copyright__ = 'Copyright 2015 TaoBeier'
 
 
