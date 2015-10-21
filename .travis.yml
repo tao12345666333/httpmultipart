@@ -15,4 +15,6 @@ install:
 
 script:
     - travis_retry python test_httpmultipart.py
-    - travis_retry coveralls
+
+after_success:
+    coveralls
