@@ -10,9 +10,8 @@ sudo: false
 
 install:
     - travis_retry python setup.py install
-    - travis_retry pip install coverage
+    - travis_retry pip install coveralls
 
 script:
     - travis_retry python test_httpmultipart.py
-    - travis_retry coverage erase
-    - travis_retry coverage run test_httpmultipart.py
+    - travis_retry coveralls
