@@ -1,22 +1,41 @@
-.. HttpMultipart documentation master file, created by
-   sphinx-quickstart on Wed Oct 21 16:01:44 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. title:: index
 
 Welcome to HttpMultipart's documentation!
 =========================================
 
-Contents:
+HttpMultipart is a Python http multipart post handler.
+
+Installation
+------------
+
+**Automatic installation**::
+
+    pip install httpmultipart
+
+HttpMultipart is listed in `PyPI <https://pypi.python.org/pypi/httpmultipart>`_ and can be installed with ``pip`` or ``easy_install``.
+
+
+**Manual installation**: Download the latest source from `PyPI
+<https://pypi.python.org/pypi/httpmultipart>`_.
+
+.. parsed-literal::
+
+    tar xzvf httpmultipart-$VERSION.tar.gz
+    cd httpmultipart-$VERSION
+    python setup.py build
+    sudo python setup.py install
+
+The HttpMultipart source code is `hosted on GitHub
+<https://github.com/tao12345666333/httpmultipart>`_.
+
+Documentation
+--------------
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
 
-
-
-Indices and tables
-==================
+   userguide
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

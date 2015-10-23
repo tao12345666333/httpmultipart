@@ -1,5 +1,5 @@
-HttpMultipart
-==============
+Introduction
+-------------
 
 .. image:: https://img.shields.io/pypi/v/httpmultipart.svg
     :target: https://pypi.python.org/pypi/httpmultipart
@@ -24,41 +24,3 @@ HttpMultipart
 
 Just a Python Http Multipart Post Handler.
 You can use it to post multipart requests.
-
-
-Usage
-------
-
-**Post**
-
-.. code-block:: python
-
-    >>> import httpmultipart
-    >>> httpmultipart.post(url, fields, files)
-    ...
-
-
-The fields and files are both sequence.
-After run post function, it will return the response.
-
-
-Installation
---------------
-
-**Automatic installation**::
-
-    pip install httpmultipart
-
-
-**Manual installation**: Download the latest source from `PyPI
-<https://pypi.python.org/pypi/httpmultipart>`_.
-
-.. parsed-literal::
-
-    tar xzvf httpmultipart-$VERSION.tar.gz
-    cd httpmultipart-$VERSION
-    python setup.py build
-    sudo python setup.py install
-
-The HttpMultipart source code is `hosted on GitHub
-<https://github.com/tao12345666333/httpmultipart>`_.
