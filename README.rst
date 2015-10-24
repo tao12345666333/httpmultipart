@@ -43,7 +43,7 @@ After run post function, it will return the response.
 
 
 Installation
---------------
+-------------
 
 **Automatic installation**::
 
@@ -62,3 +62,10 @@ Installation
 
 The HttpMultipart source code is `hosted on GitHub
 <https://github.com/tao12345666333/httpmultipart>`_.
+
+
+Documentation
+--------------
+
+The HttpMultipart documentation is `hosted on Read the Docs
+<http://httpmultipart.rtfd.org>`_.
